@@ -11,7 +11,7 @@ body {
   letter-spacing: 1px;
   padding: 20px;
 }
-.main-title > div:nth-child(1){
+.main-title > div:nth-child(1) > div:nth-child(1) {
   font-size: 40px;
   font-weight: bold;
 }
@@ -61,10 +61,9 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
 }
-.foto{
-  position: absolute;
-  top: 0;
-  left: 1130px;
+.foto {
+    position: absolute;
+    top: 0;
 }
 img{
   width: 170px;
