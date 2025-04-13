@@ -39,7 +39,6 @@
                                     КУ ССШ №17 - Україна, Сумська Обл., М. Суми, Просп. М. Лушпи, 18
                                 </div>
                             </div>
-
                         </div>
                         <div class="education-content">
                             <div class="year">
@@ -94,7 +93,22 @@
                             </div>
                         </div>
                     </div>
-
+                    <div>
+                        <div class="title">Місця працевлаштування</div>
+                        <div class="education-content">
+                            <div class="year">
+                                2024-05 - 2025-04
+                            </div>
+                            <div>
+                                <div class="main-education-content">
+                                    ФОП - 3 групи (ІТ консультації)
+                                </div>
+                                <div class="education-location basic-text">
+                                    Працював на проєкті Jaztime
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div>
                         <div class="title">
                             Мови
@@ -106,7 +120,7 @@
                     </div>
                     <div>
                         <div class="title">Заробітна плата</div>
-                        <div class="basic-text">Для початку, я думаю, зарплата не має великого значення, але вона не повинна бути меншою за мінімальну.</div>
+                        <div class="basic-text">Не менше 20 тисяч гривень.</div>
                     </div>
                 </div>
                 <div class="right-block">
@@ -153,21 +167,21 @@
                             <div>Надійність та відповідальність</div>
                             <div>MS Office</div>
                             <div>Software Development</div>
-                            <div>Java, Python(Pandas, NumPy, SciPy, PyTorch, SciKit-Learn, Matplotlib, TensorFlow), C++, JavaScript(Node, React...), MatLab</div>
-                            <div>Sql(Oracle, MySQL)</div>
-                            <div>Windows, Linux, IOS(week)</div>
+                            <div>Java, PHP, Python(Pandas, NumPy, SciPy, PyTorch, SciKit-Learn, Matplotlib, TensorFlow), C++, JavaScript(Node, React...), MatLab</div>
+                            <div>Sql(Oracle, MySQL, MariaDB)</div>
+                            <div>Windows, Linux, IOS</div>
                         </div>
                     </div>
                 </div>
             </div>
         <script>
-            var body = document.getElementsByTagName("BODY")[0];
-            var width = body.offsetWidth;
+            let body = document.getElementsByTagName("BODY")[0];
+            let width = body.offsetWidth;
 
             function onResizeEvent() {
                 let MTWidth = document.querySelector('.main-title').offsetWidth - 30
                 let WW = window.innerWidth
-                let foto_left = WW / 2 + MTWidth / 4
+                let foto_left = WW / 2 + MTWidth / 4 - 10
                 if (foto_left>615)
                     document.getElementById('foto').style.left = foto_left + 'px'
                 else
